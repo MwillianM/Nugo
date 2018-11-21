@@ -1,8 +1,8 @@
 Plan
 ===
 
-1. [ ] Connect to STG_NUGO
-1. [ ] List Tables
+1. [x] [Connect to STG_NUGO](./custom/connect.py "connect.py")
+1. [x] [List Tables](./metadata.json "metadata.json")
 1. [ ] Extract and Compress Tables
 1. [ ] Data Exploration
 1. [ ] Build Datasets

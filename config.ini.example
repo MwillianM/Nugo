@@ -1,5 +1,0 @@
-[MSSQL]
-server = xxx.xxx.xxx.xxx
-user = user
-password = password
-database = database

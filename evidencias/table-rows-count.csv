@@ -1,0 +1,169 @@
+name;rows;
+CashlessTransactions;5137071;
+DevicePings;4176976;Device
+CashlessTransactionProducts;3962390;
+Payments;1371099;Personal choice
+Addresses;834869;PersonAddresses
+CustomerSmartcards;537138;
+Customers;466284;
+Smartcards;418693;
+DeviceSessions;297605;Personal choice
+Persons;253187;
+CreditAcquirerNotifications;225999;
+Comments;162117;
+ConsumptionsControl;89975;
+Neighborhoods;48190;
+Users;31588;
+MenuProducts;29535;
+EventProducts;27985;
+StockProducts;27950;
+RefundCustomerSmartcards;23509;
+BartenderCollections;18930;
+CashierClosings;17923;
+Refunds;17638;
+BankAccounts;16723;
+PersonBankAccounts;16611;
+POSDevices;14741;Personal choice
+Devices;11723;
+DeviceIdentifiers;11669;
+PersonAddresses;11300;4% of Person table
+Cities;10741;
+UserProfiles;8650;
+POSDeviceGadgets;8415;
+POSUserAccesses;7443;
+POSMenus;3672;
+TableAccounts;3529;
+CustomerSmartcardComments;2679;
+Menus;2553;
+ProducerUserProfiles;2140;
+POS;1809;
+TeamPOS;1173;
+CashierSheets;1089;
+CashlessTransactionLogs;1040;
+TeamUsers;920;
+Teams;787;
+Gadgets;592;
+tmpImportDataTable;590;
+Countries;248;"0,5% completeness on Persons"
+Banks;248;
+StoreAgreements;210;
+StoreAgreementPOS;208;
+Stores;183;
+StoreUsers;180;
+Stocks;152;
+Companies;138;
+EventProductImages;135;
+EventSessionSetups;131;
+Events;131;
+Agreements;130;
+Sessions;128;Empty on EventSessionSetups
+Images;117;
+DeviceLocationsHistory;103;
+PersonImages;71;
+Producers;66;
+EmailBlacklist;34;
+CashlessTransactionTypes;31;
+States;27;
+sysdiagrams;22;
+ProductCategories;21;Empty on EventProducts
+ProfileRoles;20;
+CompanyAddresses;20;
+PersonCreditCards;18;
+CreditCards;18;
+POSTypes;17;
+Profiles;16;
+ProducerPartners;14;
+UserIdentifiers;11;
+ErrorReports;11;
+SmartcardStatus;10;
+Roles;10;
+DeviceLocations;9;
+SmartcardCategories;8;
+ProducerPartnerSessions;8;
+PaymentStatus;8;
+ImageTypes;8;
+IdentifierTypes;8;
+PaymentMethods;7;
+CreditAcquirerTaxes;7;
+ProductTypes;6;
+PersonCreditCardStatus;6;
+DeviceLocationStatus;6;
+CreditAcquirerSetups;6;
+TicketClasses;5;
+TicketTypes;4;
+SmartcardTypes;4;
+RefundStatus;4;
+CreditCardBrands;4;
+CreditAcquirers;4;
+Applications;4;Low variation
+AddressCategories;4;
+UserStatus;3;Low variation
+TicketTierChangeTypes;3;
+StoreAgreementStatus;3;
+GadgetTypes;3;
+EventImages;3;
+EventCategories;3;
+DocumentTypes;3;2% completeness on Persons
+DeviceSessionStatus;3;
+CreditReuseTypes;3;
+AgreementTypes;3;
+AgentTypes;3;
+TicketSetupStatus;2;
+RefundHistoryTypes;2;
+ProductIngredients;2;
+PersonStatus;2;Low variation
+PayoutMethods;2;
+DiscountTypes;2;
+CustomerStatus;2;
+CreditAcquirerAccounts;2;
+SessionStatus;1;Single Value
+SessionCategories;1;Single Value
+RemovedPersons;1;Single Value
+RemovedBankAccounts;1;Single Value
+EventStatus;1;Single Value
+DeviceStatus;1;Single Value
+UserDevices;0;Empty table
+UserAuthentications;0;Empty table
+TicketTransactions;0;Empty table
+TicketTiers;0;Empty table
+TicketStatus;0;Empty table
+TicketSetups;0;Empty table
+TicketSessions;0;Empty table
+Tickets;0;Empty table
+TicketPaymentMethods;0;Empty table
+TicketHistories;0;Empty table
+TicketGifts;0;Empty table
+TicketDiscounts;0;Empty table
+TicketAgentTypes;0;Empty table
+TicketAgents;0;Empty table
+TicketAddOns;0;Empty table
+TicketActions;0;Empty table
+SOAPersons;0;Empty table
+SessionImages;0;Empty table
+SessionCategoryImages;0;Empty table
+Sellers;0;Empty table
+RemoveTransacoes;0;Empty table
+RefundsPAGSEGURO;0;Empty table
+RefundHistories;0;Empty table
+Products;0;Empty table
+POSTickets;0;Empty table
+PersonInformationComments;0;Empty table
+PayoutSchedules;0;Empty table
+PaymentTransactions;0;Empty table
+PaymentPlots;0;Empty table
+PaymentPayloads;0;Empty table
+Gifts;0;Empty table
+EventCategoryImages;0;Empty table
+Discounts;0;Empty table
+DiscountCodes;0;Empty table
+CreditCardAcquirers;0;Empty table
+ConsumptionsControlHistory;0;Empty table
+Consumptions;0;Empty table
+CompanyTypes;0;Empty table
+CompanyBankAccounts;0;Empty table
+CashierSheetLogs;0;Empty table
+CashierPartialClosings;0;Empty table
+ApplicationIps;0;Empty table
+Agents;0;Empty table
+AgentPOS;0;Empty table
+AddOns;0;Empty table

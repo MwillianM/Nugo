@@ -34,3 +34,11 @@ Transações com Ordem negativa
 ```sql
 select * from dbo.CashlessTransactions where SequentialTransaction < 0;
 ```
+
+Transações de Produto com quantidade 0
+---
+
+[output](./zero-products-count.md)
+```sql
+select * from dbo.CashlessTransactionProducts where Count = 0;
+```

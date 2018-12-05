@@ -42,3 +42,13 @@ Transações de Produto com quantidade 0
 ```sql
 select * from dbo.CashlessTransactionProducts where Count = 0;
 ```
+
+Ativações de cartão em datas inconsistentes
+---
+
+[output](./inconsistent-activation-data.md)
+```sql
+select * from dbo.CustomerSmartcards where ActivatedAt < '2014-12-31' or ActivatedAt > '2018-10-25';
+```
+
+# idade

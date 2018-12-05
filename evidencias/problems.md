@@ -48,7 +48,21 @@ Ativações de cartão em datas inconsistentes
 
 [output](./inconsistent-activation-data.md)
 ```sql
-select * from dbo.CustomerSmartcards where ActivatedAt < '2014-12-31' or ActivatedAt > '2018-10-25';
+select * from dbo.CustomerSmartcards where ActivatedAt not BETWEEN '2014-12-31' and '2018-10-25';
 ```
 
-# idade
+Pessoas com idade inconsistentes
+---
+
+[output](./inconsistent-birthdate.md)
+```sql
+SELECT * FROM dbo.Persons WHERE BirthDate not BETWEEN '1918-10-25' and '2018-10-25';
+```
+
+Funcionários com menos de 18 anos
+---
+
+[output](./minor-employees.md)
+```sql
+SELECT b.BirthDate, a.* FROM dbo.Users a LEFT JOIN dbo.Persons b ON b.IdPerson = a.IdPerson WHERE b.BirthDate > '2001-10-25' ;
+```

@@ -27,10 +27,10 @@ Transações antes de 2014
 select CAST(Date as DATETIME) from dbo.CashlessTransactions where CAST(Date as  DATETIME) < '2014-01-01';
 ```
 
-Transações com Ordem negativa
+Transações com Ordem Inconsistent
 ---
 
-[output](./negative-sequencial-transactions.md)
+[output](./inconsistent-sequencial-transactions.md)
 ```sql
 select * from dbo.CashlessTransactions where SequentialTransaction < 0;
 ```

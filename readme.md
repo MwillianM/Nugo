@@ -30,4 +30,7 @@ Atividades
   + [x] Padronização mínima dos nomes de Produtos
 + [x] [Visualização de Dados](# "Qlik")
   + [x] Extrato detalhado de consumo 
-  + [ ] (em desenvolvimento)
+  + [x] Dashboards
++ [x] [ML](./apyori)
+  + [x] Criar dataset
+  + [x] Criar modelo

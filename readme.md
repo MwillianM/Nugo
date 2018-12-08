@@ -22,15 +22,15 @@ Atividades
   + [x] Estudo da variação de todas as colunas
   + [x] Estudo do domínio das tabelas
   + [x] Renomeação das colunas para nomes negociais
-+ [x] [Exploração de Dados](# "Qlik")
++ [x] [Exploração de Dados](./evidencias/DM.png)
   + [x] Substituição de cartões "sem evento" para "Saldo Online"
   + [x] Idades dos consumidores modificadas para 0-100 anos
   + [x] Idades dos vendedores modificadas para 18-100 anos
   + [x] Domínio de sexo modificado para F,M e Outros
   + [x] Padronização mínima dos nomes de Produtos
-+ [x] [Visualização de Dados](# "Qlik")
++ [x] [Visualização de Dados](./evidencias/visualization.png)
   + [x] Extrato detalhado de consumo 
   + [x] Dashboards
-+ [x] [ML](./apyori)
++ [x] [ML](./apyori/Associação.ipynb)
   + [x] Criar dataset
   + [x] Criar modelo

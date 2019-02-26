@@ -63,6 +63,12 @@ Codigo de barras com dois dispositivos
 ---
 
 ```sql
-SELECT TOP 6 Barcode, COUNT(1) FROM Devices GROUP BY Barcode ORDER BY 2 DESC;
+SELECT IdDevice, Barcode FROM Devices WHERE Barcode in (
+	SELECT Barcode
+	FROM Devices
+	WHERE Barcode IS NOT NULL
+	GROUP BY Barcode
+	HAVING COUNT(1) > 1)
+ORDER BY 2;
 ```
 

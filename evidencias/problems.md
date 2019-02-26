@@ -58,3 +58,11 @@ Funcionários com menos de 18 anos
 ```sql
 SELECT b.BirthDate, a.* FROM dbo.Users a LEFT JOIN dbo.Persons b ON b.IdPerson = a.IdPerson WHERE b.BirthDate > '2001-10-25' ;
 ```
+
+Codigo de barras com dois dispositivos
+---
+
+```sql
+SELECT TOP 6 Barcode, COUNT(1) FROM Devices GROUP BY Barcode ORDER BY 2 DESC;
+```
+
